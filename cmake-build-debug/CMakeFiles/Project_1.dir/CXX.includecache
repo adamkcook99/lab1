@@ -68,6 +68,10 @@ Automaton.h
 Automaton.h
 /Users/adamcook/Desktop/CS236/Project-1/Automaton.h
 
+/Users/adamcook/Desktop/CS236/Project-1/Token.cpp
+Token.h
+/Users/adamcook/Desktop/CS236/Project-1/Token.h
+
 /Users/adamcook/Desktop/CS236/Project-1/Token.h
 string
 -
@@ -75,4 +79,18 @@ string
 /Users/adamcook/Desktop/CS236/Project-1/UndefinedString.h
 Automaton.h
 /Users/adamcook/Desktop/CS236/Project-1/Automaton.h
+
+/Users/adamcook/Desktop/CS236/Project-1/main.cpp
+Lexer.h
+/Users/adamcook/Desktop/CS236/Project-1/Lexer.h
+string
+-
+iostream
+-
+string
+-
+vector
+-
+fstream
+-
 

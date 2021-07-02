@@ -27,10 +27,9 @@ int main(int argc, char** argv) {
     string line;
     while (getline(input,line)) {
        stringInput = stringInput + line + '\n';
-        //stringInput = stringInput + line;
     }
+    //stringInput.pop_back();
 
-        //cout << "passing this -> to lexer" << stringInput << "<-  \n" ;
 
 
     // new lexer
