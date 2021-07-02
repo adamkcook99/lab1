@@ -58,7 +58,7 @@ string Token::typeToString(TokenType type) {
 
 
     }
-
+    return "nothing";
 }
 
 

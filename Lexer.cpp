@@ -83,7 +83,7 @@ void Lexer::Run(string& input) {
         } else {
 
             // Here is the "Parallel" part of the algorithm
-            for (int j = 0; j < automata.size(); j++) {
+            for (unsigned int j = 0; j < automata.size(); j++) {
 
                 inputRead = automata[j]->Start(input);
                 //cout << inputRead << "\n";
