@@ -65,7 +65,7 @@ void Lexer::Run(string& input) {
     //cout << "In Run in lexer, input = " << input << "\n";
 
     unsigned int lineNumber = 1;
-    int inputRead = 0;
+    unsigned int inputRead = 0;
 
     //cout << "before!" << "\n";
 
@@ -125,20 +125,28 @@ void Lexer::Run(string& input) {
 
 }
 
-void Lexer::print(){
+void Lexer::print() {
 
-    for (int j = 0; j < tokens.size(); j++) {
+    for (unsigned int j = 0; j < tokens.size(); j++) {
         string out = tokens[j]->printToken();
-        if (j != tokens.size()) {
-            cout << out << '\n';
-        } else {
-            cout << out;
-        }
+
+        cout << out << '\n';
+
     }
 
-    cout << "Total Tokens = " << tokens.size();
+        cout << "Total Tokens = " << tokens.size();
+
 }
 
 
 
+/*
+ *   for (int j = 0; j < tokens.size(); j++) {
+        string out = tokens[j]->printToken();
+        if (j == 0) {
+            cout << out;
+        } else {
+            cout << '\n' << out;
 
+        }
+ */
