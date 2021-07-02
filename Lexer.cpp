@@ -129,13 +129,12 @@ void Lexer::print(){
 
     for (int j = 0; j < tokens.size(); j++) {
         string out = tokens[j]->printToken();
-        if (!(j == (tokens.size()))) {
+        if (j != tokens.size()) {
             cout << out << '\n';
         } else {
             cout << out;
         }
     }
-
 
     cout << "Total Tokens = " << tokens.size();
 }
