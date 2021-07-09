@@ -61,6 +61,10 @@ string Token::typeToString(TokenType type) {
     return "nothing";
 }
 
+TokenType Token::getToken(){
+    return tokenType;
+
+}
 
 
 

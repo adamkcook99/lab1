@@ -39,6 +39,7 @@ public:
 
     string typeToString(TokenType type);
     string printToken();
+    TokenType getToken();
 
     // TODO: add other needed methods
 };
