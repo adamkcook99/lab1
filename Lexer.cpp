@@ -9,15 +9,12 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <cctype>
+#include "Token.h"
 using namespace std;
 
 Lexer::Lexer(string& input) {
     //cout <<  "in lexer constructor, input  =  " <<  input << " \n";
     inputString = input;
-    //cout << "input string = " << inputString << "\n";
-
-
     CreateAutomata();
     Run(inputString);
     //print();
@@ -34,12 +31,9 @@ void Lexer::CreateAutomata() {
 
     automata.push_back(new MatcherAutomaton(":-", TokenType::COLON_DASH));
     automata.push_back(new MatcherAutomaton(":", TokenType::COLON));
-    //automata.push_back(new ColonAutomaton());
-    // automata.push_back(new ColonDashAutomaton());
     automata.push_back(new StringAutomaton());
     automata.push_back(new MatcherAutomaton(",", TokenType::COMMA));
     automata.push_back(new MatcherAutomaton("Schemes", TokenType::SCHEMES));
-
     automata.push_back(new MatcherAutomaton(".", TokenType::PERIOD));
     automata.push_back(new MatcherAutomaton("?", TokenType::Q_MARK));
     automata.push_back(new MatcherAutomaton("(", TokenType::LEFT_PAREN));
@@ -49,13 +43,10 @@ void Lexer::CreateAutomata() {
     automata.push_back(new MatcherAutomaton("Facts", TokenType::FACTS));
     automata.push_back(new MatcherAutomaton("Rules", TokenType::RULES));
     automata.push_back(new MatcherAutomaton("Queries", TokenType::QUERIES));
-
     automata.push_back(new IDAutomaton());
     automata.push_back(new CommentAutomata());
-
     automata.push_back(new UndefinedString());
 
-    //automata.push_back(new MatcherAutomaton(EOF, TokenType::EOF_TYPE));
 
     // TODO: Add the other needed automata here
 }
@@ -67,7 +58,6 @@ void Lexer::Run(string& input) {
     unsigned int lineNumber = 1;
     unsigned int inputRead = 0;
 
-    //cout << "before!" << "\n";
 
     while (input.size() > 0) {
         unsigned int maxRead = 0;
@@ -100,7 +90,9 @@ void Lexer::Run(string& input) {
             if (maxRead > 0) {
                 Token *newToken = maxAutomaton->CreateToken(input.substr(0, maxRead), lineNumber);
                 lineNumber = lineNumber + maxAutomaton->NewLinesRead();
-                tokens.push_back(newToken);
+                if (newToken->getToken() != TokenType::COMMENT) {
+                    tokens.push_back(newToken);
+                }
             }
 
                 // No automaton accepted input; create invalid token
@@ -129,24 +121,14 @@ void Lexer::print() {
 
     for (unsigned int j = 0; j < tokens.size(); j++) {
         string out = tokens[j]->printToken();
-
         cout << out << '\n';
 
     }
-
         cout << "Total Tokens = " << tokens.size();
+}
+
+vector<Token*> Lexer::returnVector(){
+    return tokens;
 
 }
 
-
-
-/*
- *   for (int j = 0; j < tokens.size(); j++) {
-        string out = tokens[j]->printToken();
-        if (j == 0) {
-            cout << out;
-        } else {
-            cout << '\n' << out;
-
-        }
- */

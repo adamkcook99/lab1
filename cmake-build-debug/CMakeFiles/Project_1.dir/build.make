@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/adamcook/Desktop/CS236/Project-1
+CMAKE_SOURCE_DIR = /Users/adamcook/Desktop/CS236/Project-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Project_1.dir/depend.make
@@ -59,133 +59,198 @@ include CMakeFiles/Project_1.dir/flags.make
 
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o: ../ColonAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o -c /Users/adamcook/Desktop/CS236/Project-1/ColonAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/ColonAutomaton.cpp
 
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/ColonAutomaton.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-1/ColonAutomaton.cpp > CMakeFiles/Project_1.dir/ColonAutomaton.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/ColonAutomaton.cpp > CMakeFiles/Project_1.dir/ColonAutomaton.cpp.i
 
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/ColonAutomaton.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-1/ColonAutomaton.cpp -o CMakeFiles/Project_1.dir/ColonAutomaton.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/ColonAutomaton.cpp -o CMakeFiles/Project_1.dir/ColonAutomaton.cpp.s
 
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o: ../ColonDashAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o -c /Users/adamcook/Desktop/CS236/Project-1/ColonDashAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/ColonDashAutomaton.cpp
 
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-1/ColonDashAutomaton.cpp > CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/ColonDashAutomaton.cpp > CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.i
 
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-1/ColonDashAutomaton.cpp -o CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/ColonDashAutomaton.cpp -o CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s
 
 CMakeFiles/Project_1.dir/Lexer.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project_1.dir/Lexer.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Lexer.cpp.o -c /Users/adamcook/Desktop/CS236/Project-1/Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project_1.dir/Lexer.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Lexer.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/Lexer.cpp
 
 CMakeFiles/Project_1.dir/Lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Lexer.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-1/Lexer.cpp > CMakeFiles/Project_1.dir/Lexer.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/Lexer.cpp > CMakeFiles/Project_1.dir/Lexer.cpp.i
 
 CMakeFiles/Project_1.dir/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Lexer.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-1/Lexer.cpp -o CMakeFiles/Project_1.dir/Lexer.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/Lexer.cpp -o CMakeFiles/Project_1.dir/Lexer.cpp.s
 
 CMakeFiles/Project_1.dir/Token.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/Token.cpp.o: ../Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_1.dir/Token.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Token.cpp.o -c /Users/adamcook/Desktop/CS236/Project-1/Token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_1.dir/Token.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Token.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/Token.cpp
 
 CMakeFiles/Project_1.dir/Token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Token.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-1/Token.cpp > CMakeFiles/Project_1.dir/Token.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/Token.cpp > CMakeFiles/Project_1.dir/Token.cpp.i
 
 CMakeFiles/Project_1.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Token.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-1/Token.cpp -o CMakeFiles/Project_1.dir/Token.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/Token.cpp -o CMakeFiles/Project_1.dir/Token.cpp.s
 
 CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o: ../MatcherAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o -c /Users/adamcook/Desktop/CS236/Project-1/MatcherAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/MatcherAutomaton.cpp
 
 CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-1/MatcherAutomaton.cpp > CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/MatcherAutomaton.cpp > CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.i
 
 CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-1/MatcherAutomaton.cpp -o CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/MatcherAutomaton.cpp -o CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.s
 
 CMakeFiles/Project_1.dir/StringAutomaton.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/StringAutomaton.cpp.o: ../StringAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project_1.dir/StringAutomaton.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/StringAutomaton.cpp.o -c /Users/adamcook/Desktop/CS236/Project-1/StringAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project_1.dir/StringAutomaton.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/StringAutomaton.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/StringAutomaton.cpp
 
 CMakeFiles/Project_1.dir/StringAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/StringAutomaton.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-1/StringAutomaton.cpp > CMakeFiles/Project_1.dir/StringAutomaton.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/StringAutomaton.cpp > CMakeFiles/Project_1.dir/StringAutomaton.cpp.i
 
 CMakeFiles/Project_1.dir/StringAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/StringAutomaton.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-1/StringAutomaton.cpp -o CMakeFiles/Project_1.dir/StringAutomaton.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/StringAutomaton.cpp -o CMakeFiles/Project_1.dir/StringAutomaton.cpp.s
 
 CMakeFiles/Project_1.dir/IDAutomaton.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/IDAutomaton.cpp.o: ../IDAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Project_1.dir/IDAutomaton.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/IDAutomaton.cpp.o -c /Users/adamcook/Desktop/CS236/Project-1/IDAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Project_1.dir/IDAutomaton.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/IDAutomaton.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/IDAutomaton.cpp
 
 CMakeFiles/Project_1.dir/IDAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/IDAutomaton.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-1/IDAutomaton.cpp > CMakeFiles/Project_1.dir/IDAutomaton.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/IDAutomaton.cpp > CMakeFiles/Project_1.dir/IDAutomaton.cpp.i
 
 CMakeFiles/Project_1.dir/IDAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/IDAutomaton.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-1/IDAutomaton.cpp -o CMakeFiles/Project_1.dir/IDAutomaton.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/IDAutomaton.cpp -o CMakeFiles/Project_1.dir/IDAutomaton.cpp.s
 
 CMakeFiles/Project_1.dir/UndefinedString.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/UndefinedString.cpp.o: ../UndefinedString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Project_1.dir/UndefinedString.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/UndefinedString.cpp.o -c /Users/adamcook/Desktop/CS236/Project-1/UndefinedString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Project_1.dir/UndefinedString.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/UndefinedString.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/UndefinedString.cpp
 
 CMakeFiles/Project_1.dir/UndefinedString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/UndefinedString.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-1/UndefinedString.cpp > CMakeFiles/Project_1.dir/UndefinedString.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/UndefinedString.cpp > CMakeFiles/Project_1.dir/UndefinedString.cpp.i
 
 CMakeFiles/Project_1.dir/UndefinedString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/UndefinedString.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-1/UndefinedString.cpp -o CMakeFiles/Project_1.dir/UndefinedString.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/UndefinedString.cpp -o CMakeFiles/Project_1.dir/UndefinedString.cpp.s
 
 CMakeFiles/Project_1.dir/CommentAutomata.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/CommentAutomata.cpp.o: ../CommentAutomata.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Project_1.dir/CommentAutomata.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/CommentAutomata.cpp.o -c /Users/adamcook/Desktop/CS236/Project-1/CommentAutomata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Project_1.dir/CommentAutomata.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/CommentAutomata.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/CommentAutomata.cpp
 
 CMakeFiles/Project_1.dir/CommentAutomata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/CommentAutomata.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-1/CommentAutomata.cpp > CMakeFiles/Project_1.dir/CommentAutomata.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/CommentAutomata.cpp > CMakeFiles/Project_1.dir/CommentAutomata.cpp.i
 
 CMakeFiles/Project_1.dir/CommentAutomata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/CommentAutomata.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-1/CommentAutomata.cpp -o CMakeFiles/Project_1.dir/CommentAutomata.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/CommentAutomata.cpp -o CMakeFiles/Project_1.dir/CommentAutomata.cpp.s
+
+CMakeFiles/Project_1.dir/Parser.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Project_1.dir/Parser.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Parser.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/Parser.cpp
+
+CMakeFiles/Project_1.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Parser.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/Parser.cpp > CMakeFiles/Project_1.dir/Parser.cpp.i
+
+CMakeFiles/Project_1.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Parser.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/Parser.cpp -o CMakeFiles/Project_1.dir/Parser.cpp.s
+
+CMakeFiles/Project_1.dir/DatalogProgram.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Project_1.dir/DatalogProgram.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/DatalogProgram.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/DatalogProgram.cpp
+
+CMakeFiles/Project_1.dir/DatalogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/DatalogProgram.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/DatalogProgram.cpp > CMakeFiles/Project_1.dir/DatalogProgram.cpp.i
+
+CMakeFiles/Project_1.dir/DatalogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/DatalogProgram.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/DatalogProgram.cpp -o CMakeFiles/Project_1.dir/DatalogProgram.cpp.s
+
+CMakeFiles/Project_1.dir/Parameter.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Parameter.cpp.o: ../Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Project_1.dir/Parameter.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Parameter.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/Parameter.cpp
+
+CMakeFiles/Project_1.dir/Parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Parameter.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/Parameter.cpp > CMakeFiles/Project_1.dir/Parameter.cpp.i
+
+CMakeFiles/Project_1.dir/Parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Parameter.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/Parameter.cpp -o CMakeFiles/Project_1.dir/Parameter.cpp.s
+
+CMakeFiles/Project_1.dir/Predicate.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Predicate.cpp.o: ../Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Project_1.dir/Predicate.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Predicate.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/Predicate.cpp
+
+CMakeFiles/Project_1.dir/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Predicate.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/Predicate.cpp > CMakeFiles/Project_1.dir/Predicate.cpp.i
+
+CMakeFiles/Project_1.dir/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Predicate.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/Predicate.cpp -o CMakeFiles/Project_1.dir/Predicate.cpp.s
+
+CMakeFiles/Project_1.dir/Rule.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Rule.cpp.o: ../Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Project_1.dir/Rule.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Rule.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/Rule.cpp
+
+CMakeFiles/Project_1.dir/Rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Rule.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/Rule.cpp > CMakeFiles/Project_1.dir/Rule.cpp.i
+
+CMakeFiles/Project_1.dir/Rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Rule.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/Rule.cpp -o CMakeFiles/Project_1.dir/Rule.cpp.s
 
 CMakeFiles/Project_1.dir/main.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Project_1.dir/main.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/main.cpp.o -c /Users/adamcook/Desktop/CS236/Project-1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Project_1.dir/main.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/main.cpp.o -c /Users/adamcook/Desktop/CS236/Project-2/main.cpp
 
 CMakeFiles/Project_1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-1/main.cpp > CMakeFiles/Project_1.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/adamcook/Desktop/CS236/Project-2/main.cpp > CMakeFiles/Project_1.dir/main.cpp.i
 
 CMakeFiles/Project_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-1/main.cpp -o CMakeFiles/Project_1.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/adamcook/Desktop/CS236/Project-2/main.cpp -o CMakeFiles/Project_1.dir/main.cpp.s
 
 # Object files for target Project_1
 Project_1_OBJECTS = \
@@ -198,6 +263,11 @@ Project_1_OBJECTS = \
 "CMakeFiles/Project_1.dir/IDAutomaton.cpp.o" \
 "CMakeFiles/Project_1.dir/UndefinedString.cpp.o" \
 "CMakeFiles/Project_1.dir/CommentAutomata.cpp.o" \
+"CMakeFiles/Project_1.dir/Parser.cpp.o" \
+"CMakeFiles/Project_1.dir/DatalogProgram.cpp.o" \
+"CMakeFiles/Project_1.dir/Parameter.cpp.o" \
+"CMakeFiles/Project_1.dir/Predicate.cpp.o" \
+"CMakeFiles/Project_1.dir/Rule.cpp.o" \
 "CMakeFiles/Project_1.dir/main.cpp.o"
 
 # External object files for target Project_1
@@ -212,10 +282,15 @@ Project_1: CMakeFiles/Project_1.dir/StringAutomaton.cpp.o
 Project_1: CMakeFiles/Project_1.dir/IDAutomaton.cpp.o
 Project_1: CMakeFiles/Project_1.dir/UndefinedString.cpp.o
 Project_1: CMakeFiles/Project_1.dir/CommentAutomata.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Parser.cpp.o
+Project_1: CMakeFiles/Project_1.dir/DatalogProgram.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Parameter.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Predicate.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Rule.cpp.o
 Project_1: CMakeFiles/Project_1.dir/main.cpp.o
 Project_1: CMakeFiles/Project_1.dir/build.make
 Project_1: CMakeFiles/Project_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Project_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Project_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -228,6 +303,6 @@ CMakeFiles/Project_1.dir/clean:
 .PHONY : CMakeFiles/Project_1.dir/clean
 
 CMakeFiles/Project_1.dir/depend:
-	cd /Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/adamcook/Desktop/CS236/Project-1 /Users/adamcook/Desktop/CS236/Project-1 /Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug /Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug /Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles/Project_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/adamcook/Desktop/CS236/Project-2 /Users/adamcook/Desktop/CS236/Project-2 /Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug /Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug /Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles/Project_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Project_1.dir/depend
 

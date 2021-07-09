@@ -3,7 +3,7 @@ project(Project_1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
+include_directories(Project-1)
 
 add_executable(Project_1
         Automaton.h
@@ -25,4 +25,14 @@ add_executable(Project_1
         UndefinedString.h
         CommentAutomata.cpp
         CommentAutomata.h
+        Parser.cpp
+        Parser.h
+        DatalogProgram.cpp
+        DatalogProgram.h
+        Parameter.cpp
+        Parameter.h
+        Predicate.cpp
+        Predicate.h
+        Rule.cpp
+        Rule.h
         main.cpp)

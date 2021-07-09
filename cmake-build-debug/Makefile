@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/adamcook/Desktop/CS236/Project-1
+CMAKE_SOURCE_DIR = /Users/adamcook/Desktop/CS236/Project-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles /Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles /Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -204,6 +204,33 @@ CommentAutomata.cpp.s:
 	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/CommentAutomata.cpp.s
 .PHONY : CommentAutomata.cpp.s
 
+DatalogProgram.o: DatalogProgram.cpp.o
+
+.PHONY : DatalogProgram.o
+
+# target to build an object file
+DatalogProgram.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/DatalogProgram.cpp.o
+.PHONY : DatalogProgram.cpp.o
+
+DatalogProgram.i: DatalogProgram.cpp.i
+
+.PHONY : DatalogProgram.i
+
+# target to preprocess a source file
+DatalogProgram.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/DatalogProgram.cpp.i
+.PHONY : DatalogProgram.cpp.i
+
+DatalogProgram.s: DatalogProgram.cpp.s
+
+.PHONY : DatalogProgram.s
+
+# target to generate assembly for a file
+DatalogProgram.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/DatalogProgram.cpp.s
+.PHONY : DatalogProgram.cpp.s
+
 IDAutomaton.o: IDAutomaton.cpp.o
 
 .PHONY : IDAutomaton.o
@@ -284,6 +311,114 @@ MatcherAutomaton.s: MatcherAutomaton.cpp.s
 MatcherAutomaton.cpp.s:
 	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.s
 .PHONY : MatcherAutomaton.cpp.s
+
+Parameter.o: Parameter.cpp.o
+
+.PHONY : Parameter.o
+
+# target to build an object file
+Parameter.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Parameter.cpp.o
+.PHONY : Parameter.cpp.o
+
+Parameter.i: Parameter.cpp.i
+
+.PHONY : Parameter.i
+
+# target to preprocess a source file
+Parameter.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Parameter.cpp.i
+.PHONY : Parameter.cpp.i
+
+Parameter.s: Parameter.cpp.s
+
+.PHONY : Parameter.s
+
+# target to generate assembly for a file
+Parameter.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Parameter.cpp.s
+.PHONY : Parameter.cpp.s
+
+Parser.o: Parser.cpp.o
+
+.PHONY : Parser.o
+
+# target to build an object file
+Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
+
+Parser.i: Parser.cpp.i
+
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
+
+Parser.s: Parser.cpp.s
+
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
+
+Predicate.o: Predicate.cpp.o
+
+.PHONY : Predicate.o
+
+# target to build an object file
+Predicate.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Predicate.cpp.o
+.PHONY : Predicate.cpp.o
+
+Predicate.i: Predicate.cpp.i
+
+.PHONY : Predicate.i
+
+# target to preprocess a source file
+Predicate.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Predicate.cpp.i
+.PHONY : Predicate.cpp.i
+
+Predicate.s: Predicate.cpp.s
+
+.PHONY : Predicate.s
+
+# target to generate assembly for a file
+Predicate.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Predicate.cpp.s
+.PHONY : Predicate.cpp.s
+
+Rule.o: Rule.cpp.o
+
+.PHONY : Rule.o
+
+# target to build an object file
+Rule.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Rule.cpp.o
+.PHONY : Rule.cpp.o
+
+Rule.i: Rule.cpp.i
+
+.PHONY : Rule.i
+
+# target to preprocess a source file
+Rule.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Rule.cpp.i
+.PHONY : Rule.cpp.i
+
+Rule.s: Rule.cpp.s
+
+.PHONY : Rule.s
+
+# target to generate assembly for a file
+Rule.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Rule.cpp.s
+.PHONY : Rule.cpp.s
 
 StringAutomaton.o: StringAutomaton.cpp.o
 
@@ -411,6 +546,9 @@ help:
 	@echo "... CommentAutomata.o"
 	@echo "... CommentAutomata.i"
 	@echo "... CommentAutomata.s"
+	@echo "... DatalogProgram.o"
+	@echo "... DatalogProgram.i"
+	@echo "... DatalogProgram.s"
 	@echo "... IDAutomaton.o"
 	@echo "... IDAutomaton.i"
 	@echo "... IDAutomaton.s"
@@ -420,6 +558,18 @@ help:
 	@echo "... MatcherAutomaton.o"
 	@echo "... MatcherAutomaton.i"
 	@echo "... MatcherAutomaton.s"
+	@echo "... Parameter.o"
+	@echo "... Parameter.i"
+	@echo "... Parameter.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
+	@echo "... Predicate.o"
+	@echo "... Predicate.i"
+	@echo "... Predicate.s"
+	@echo "... Rule.o"
+	@echo "... Rule.i"
+	@echo "... Rule.s"
 	@echo "... StringAutomaton.o"
 	@echo "... StringAutomaton.i"
 	@echo "... StringAutomaton.s"

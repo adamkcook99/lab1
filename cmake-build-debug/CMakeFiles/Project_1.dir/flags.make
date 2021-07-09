@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/adamcook/Desktop/CS236/Project-1/. 
+CXX_INCLUDES = -I/Users/adamcook/Desktop/CS236/Project-2/Project-1 
 

@@ -4,6 +4,8 @@
 #include <string>
 #include <vector>
 #include <fstream>
+#include "Token.h"
+#include "Parser.h"
 
 
 using namespace std;
@@ -28,15 +30,19 @@ int main(int argc, char** argv) {
     while (getline(input,line)) {
        stringInput = stringInput + line + '\n';
     }
-    //stringInput.pop_back();
 
-
-
-    // new lexer
     Lexer* lexer;
     lexer = new Lexer(stringInput);
-    lexer->print();
 
+    Parser* parser;
+    try {
+        parser = new Parser(lexer->returnVector());
+
+        parser->print();
+
+    } catch (int i){
+
+    }
 
 
 

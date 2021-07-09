@@ -35,6 +35,10 @@ private:
 
 
 public:
+    string getRawValue(){
+        return rawValue;
+    }
+
     Token(TokenType type, std::string description, int line);
 
     string typeToString(TokenType type);

@@ -21,6 +21,7 @@ public:
     ~Lexer();
     void print();
     void Run(string& input);
+    vector<Token*> returnVector();
     
     // TODO: add other public methods here
 

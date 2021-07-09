@@ -8,43 +8,43 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug"/>
+				<Option working_dir="/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug"/>
+				<Option working_dir="/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug"/>
+				<Option working_dir="/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_1">
-				<Option output="/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Project_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug"/>
+				<Option output="/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Project_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/adamcook/Desktop/CS236/Project-1/."/>
+					<Add directory="/Users/adamcook/Desktop/CS236/Project-2/Project-1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -53,20 +53,20 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_1"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_1"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project_1/fast">
-				<Option output="/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Project_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug"/>
+				<Option output="/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Project_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/adamcook/Desktop/CS236/Project-1/."/>
+					<Add directory="/Users/adamcook/Desktop/CS236/Project-2/Project-1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -75,74 +75,104 @@
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_1/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project_1/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/adamcook/Desktop/CS236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/Automaton.h">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Automaton.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/ColonAutomaton.cpp">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/ColonAutomaton.cpp">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/ColonAutomaton.h">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/ColonAutomaton.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/ColonDashAutomaton.cpp">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/ColonDashAutomaton.cpp">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/ColonDashAutomaton.h">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/ColonDashAutomaton.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/CommentAutomata.cpp">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/CommentAutomata.cpp">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/CommentAutomata.h">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/CommentAutomata.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/IDAutomaton.cpp">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/DatalogProgram.cpp">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/IDAutomaton.h">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/DatalogProgram.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/Lexer.cpp">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/IDAutomaton.cpp">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/Lexer.h">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/IDAutomaton.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/MatcherAutomaton.cpp">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Lexer.cpp">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/MatcherAutomaton.h">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Lexer.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/StringAutomaton.cpp">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/MatcherAutomaton.cpp">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/StringAutomaton.h">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/MatcherAutomaton.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/Token.cpp">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Parameter.cpp">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/Token.h">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Parameter.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/UndefinedString.cpp">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Parser.cpp">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/UndefinedString.h">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Parser.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/main.cpp">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Predicate.cpp">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/Users/adamcook/Desktop/CS236/Project-1/CMakeLists.txt">
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Predicate.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Rule.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Rule.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/StringAutomaton.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/StringAutomaton.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Token.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/Token.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/UndefinedString.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/UndefinedString.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/main.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/Users/adamcook/Desktop/CS236/Project-2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
